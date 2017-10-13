@@ -1,4 +1,3 @@
-Test case for back-end developer | Avada Media
 ============================
 
 CONFIGURATION
