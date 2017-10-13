@@ -1,6 +1,17 @@
+Cinema site
 ============================
 
 CONFIGURATION
+-------------
+
+### Composer
+
+Run this command in your terminal:
+
+```
+$ composer install --prefer-dist
+```
+
 ### Database
 
 You can create database with next command or whatever you like:
@@ -8,6 +19,8 @@ You can create database with next command or whatever you like:
 ```mysql
 CREATE DATABASE `db_name` CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
+
+You can copy the file `config/db_example.php` into `config/db.php`.
 Edit the file `config/db.php` with real data, for example:
 
 ```php
